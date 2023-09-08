@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+flask-cors = "*"
+flask-wtf = "*"
+gunicorn = "*"
+blinker = "*"
+click = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+six = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+werkzeug = "*"
+wtforms = "*"
+
+[scripts]
+dev="flask run"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
